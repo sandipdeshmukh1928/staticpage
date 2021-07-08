@@ -121,11 +121,11 @@
 
       {
         const mtlLoader = new MTLLoader();
-        mtlLoader.load("APezzi1.mtl", (mtl) => {
+        mtlLoader.load("chair.mtl", (mtl) => {
           mtl.preload();
           const objLoader = new OBJLoader();
           objLoader.setMaterials(mtl);
-          objLoader.load("APezzi1.obj", (root) => {
+          objLoader.load("chair.obj", (root) => {
             scene.add(root);
 
             // compute the box that contains all the stuff
