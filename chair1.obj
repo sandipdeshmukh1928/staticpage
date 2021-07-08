@@ -1,6 +1,6 @@
 # Blender v2.93.1 OBJ File: ''
 # www.blender.org
-mtllib chair.mtl
+mtllib chair1.mtl
 o Leg_Leg_0
 v 0.000000 0.000001 -20.466799
 v 9.727504 0.000001 -20.459131
